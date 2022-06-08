@@ -6,10 +6,13 @@ The sample will behave the same as the original UDP sample: sending one UDP pack
 
 * Pressing “Button 1” will send an UDP packet
 * Pressing “Button 2”  will put the modem in Offline mode, pressing button 2 again will reconnect the cellular network.
+
 * Switch 1 set to “GND” = Default behavior of the Sample. PSM enabled
-* Switch 1 set to “N.C” = Disable PSM. (when the cellular network is connected, switching back will enable PSM again)
+* Switch 1 set to “N.C” = Disable PSM. 
 * Switch 2 set to “GND” = Default behavior of the Sample. RAI enabled. This feature is only available for NB-IoT network.
-* Switch 2 set to “N.C” = Disable RAI. (when the cellular network is connected, switching back will enable RAI again)
+* Switch 2 set to “N.C” = Disable RAI.
+
+For PSM and RAI features, when device is connected with network, it will enable the new features configuration right away; when devcie is offline, it will enable the new features configuraiton when reconnect with network.
 
 ## Low Power Evaluation Results
 Following [<How to Power Profile your cellular IoT application>](https://youtu.be/r_dr3Qd8inE), the tests measured the floor current(uA) when device is in PSM mode.
