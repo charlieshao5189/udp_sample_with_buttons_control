@@ -36,8 +36,8 @@ CONFIG_SERIAL=n
 CONFIG_LTE_NETWORK_MODE_NBIOT=y 
   
 
-Test results:
+The floor current(uA) of device under PSM mode:
 |                          | LTE-M | NB-IoT |
 |--------------------------|-------|--------|
 | UDP original sample      | 2.51  |  2.50  |
-| UDP with buttons control | 12.70 |  12.67 |
+| UDP with buttons control | 2.58  |  2.56  |
