@@ -26,7 +26,7 @@ CONFIG_LTE_NETWORK_MODE_LTE_M=y
   
 #CONFIG_LTE_NETWORK_MODE_NBIOT=y 
 
-[udp_sample_with_buttons_control_ltem_serial_n.hex](prebuilt_firmwares/udp_sample_with_buttons_control_ltem_serial_n.hex)
+[udp_sample_with_buttons_control_rel14_rai_ltem_serial_n.hex](prebuilt_firmwares/udp_sample_with_buttons_control_rel14_rai_ltem_serial_n.hex)
 
   **NB-IoT:** 
  
@@ -36,7 +36,7 @@ CONFIG_SERIAL=n
   
 CONFIG_LTE_NETWORK_MODE_NBIOT=y 
 
-[udp_sample_with_buttons_control_nbiot_serial_n.hex](prebuilt_firmwares/udp_sample_with_buttons_control_nbiot_serial_n.hex)
+[udp_sample_with_buttons_control_rel14_rai_nbiot_serial_n.hex](prebuilt_firmwares/udp_sample_with_buttons_control_rel14_rai_nbiot_serial_n.hex)
 
 
 The floor current(uA) of device under PSM mode:
@@ -46,6 +46,6 @@ The floor current(uA) of device under PSM mode:
 | UDP with buttons control | 2.58  |  2.56  |
 
 There are also prebuilt firmware with debug information output enabled:
-[udp_sample_with_buttons_control_ltem_serial_y.hex](prebuilt_firmwares/udp_sample_with_buttons_control_ltem_serial_y.hex)
-[udp_sample_with_buttons_control_nbiot_serial_y.hex](prebuilt_firmwares/udp_sample_with_buttons_control_nbiot_serial_y.hex)
+[udp_sample_with_buttons_control_rel14_rai_ltem_serial_y.hex](prebuilt_firmwares/udp_sample_with_buttons_control_rel14_rai_ltem_serial_y.hex)
+[udp_sample_with_buttons_control_rel14_rai_nbiot_serial_y.hex](prebuilt_firmwares/udp_sample_with_buttons_control_rel14_rai_nbiot_serial_y.hex)
   
