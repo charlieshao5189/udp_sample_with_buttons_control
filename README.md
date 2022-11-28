@@ -9,7 +9,7 @@ The sample will behave the same as the original UDP sample: sending one UDP pack
 
 * Switch 1 set to “GND” = Default behavior of the Sample. PSM enabled
 * Switch 1 set to “N.C” = Disable PSM. 
-* Switch 2 set to “GND” = Default behavior of the Sample. RAI enabled. This feature is only available for NB-IoT network.
+* Switch 2 set to “GND” = Default behavior of the Sample. RAI enabled. This feature is available for both NB-IoT and LTE-M network.
 * Switch 2 set to “N.C” = Disable RAI.
 
 For PSM and RAI features, when device is connected with network, it will enable the new features configuration right away; when devcie is offline, it will enable the new features configuraiton when reconnect with network.
