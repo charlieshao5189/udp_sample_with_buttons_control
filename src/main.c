@@ -9,8 +9,8 @@
 #include <modem/lte_lc.h>
 #include <zephyr/net/socket.h>
 #include <nrf_modem_at.h>
-#include <device.h>
-#include <drivers/gpio.h>
+#include <zephyr/device.h>
+#include <zephyr/drivers/gpio.h>
 
 #define UDP_IP_HEADER_SIZE 28
 

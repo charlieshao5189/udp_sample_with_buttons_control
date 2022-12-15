@@ -1,5 +1,5 @@
 # udp_sample_with_buttons_control
-Add button/switch control to the original NCS2.0.0 nRF9160: UDP sample
+Add button/switch control to the original NCS2.2.0 nRF9160: UDP sample
 
 ## Features Explanation:
 The sample will behave the same as the original UDP sample: sending one UDP package every 15 minutes by default with no action needed. Following features are added with button/switch actions:
